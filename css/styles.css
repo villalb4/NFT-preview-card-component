@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+body {
+  background-color: var(--main-BG);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  padding: 23px;
+  margin:50px;
+  background-color: var(--card-BG);
+  width: 350px;
+  height: 596px;
+  border-radius: 13px;
+  box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05), 0px 40px 30px 15px rgba(0, 0, 0 ,0.1);
+
+}
+.equilibrium {
+  width: 302px;
+  height: 302px;
+  border-radius: 9px;
+}
+
+h1 {
+  color: var(--White);
+  font-weight: 600;
+  font-size: 21px;
+  margin: 24px 0;
+}
+h1:hover {
+  color: var(--Cyan);
+}
+.description {
+  color: var(--Soft-blue);
+  margin: 0 0 24px 0;
+  font-weight: 300;
+  font-size: 17.6px;
+}
+
+.info {
+  display:flex;
+  margin: 0 0 24px 0;
+  justify-content: space-between;
+}
+h3 {
+  color: var(--Cyan);
+  font-size: 16px;
+}
+h4 {
+  color: var(--Soft-blue);
+  font-weight: 400;
+  font-size: 15px;
+}
+hr {
+  background-color: var(--line);
+  border-style: none;
+  height: 1px;
+}
+.crypto {
+  display: flex;
+  align-items: center;
+}
+.icon-eth {
+  margin-right: 6px;
+  height: 18px;
+}
+.time {
+  display: flex;
+  align-items: center;
+}
+.clock {
+  margin-right: 6px;
+  height: 17px;
+}
+.profile {
+  display: flex;
+}
+.avatar {
+  margin: 15px 0 0 0;
+  height: 30px;
+}
+.credits {
+  font-weight: 400;
+  font-size: 15px;
+  margin: 20px 0 0 13px;
+  color: var(--Soft-blue)
+}
+a {
+  text-decoration: none;
+  color: var(--White);
+}
+a:hover {
+  color: var(--Cyan);
+}

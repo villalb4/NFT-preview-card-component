@@ -94,10 +94,13 @@ hr {
 }
 .profile {
   display: flex;
+  align-items: center;
 }
 .avatar {
   margin: 15px 0 0 0;
-  height: 30px;
+  height: 35px;
+  border: 1px solid White;
+  border-radius: 50%
 }
 .credits {
   font-weight: 400;
@@ -111,4 +114,8 @@ a {
 }
 a:hover {
   color: var(--Cyan);
+}
+
+@media screen and (max-width: 500px) {
+
 }
